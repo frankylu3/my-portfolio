@@ -5,32 +5,32 @@ import Gallery from "../components/gallery";
 function Hobbies() {
   const soccerPhotos = [
     {
-      src: "images/soccer/1.jpg",
+      src: "/images/soccer/1.jpg",
       width: 2048,
       height: 1365,
     },
     {
-      src: "images/soccer/2.jpg",
+      src: "/images/soccer/2.jpg",
       width: 2048,
       height: 1365,
     },
     {
-      src: "images/soccer/3.jpg",
+      src: "/images/soccer/3.jpg",
       width: 2048,
       height: 1365,
     },
     {
-      src: "images/soccer/4.jpg",
+      src: "/images/soccer/4.jpg",
       width: 2048,
       height: 1365,
     },
     {
-      src: "images/soccer/5.jpg",
+      src: "/images/soccer/5.jpg",
       width: 2048,
       height: 1365,
     },
     {
-      src: "images/soccer/6.jpg",
+      src: "/images/soccer/6.jpg",
       width: 2048,
       height: 1365,
     },
