@@ -57,7 +57,11 @@ function Header() {
             }}
           />
         </a>
-        <a href="files/Franky Lu Resume.pdf" target="_blank">
+        <a
+          href="files/Franky%20Lu%20Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             title="Resume"
             src={resume}
