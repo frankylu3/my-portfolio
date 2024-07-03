@@ -23,7 +23,7 @@ export default function Home() {
             <img
               src="images/icons/me.jpg"
               alt="Me"
-              className="rounded-full w-1/6 h-1/4"
+              className="rounded-full w-1/4 h-1/4"
             />
           </div>
         </div>
