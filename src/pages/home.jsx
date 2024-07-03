@@ -1,9 +1,9 @@
-import Header from "./components/header";
-import Heading from "./components/heading";
-import Sideline from "./components/sideline";
-import Skill from "./components/skill";
+import Header from "../components/header";
+import Skill from "../components/skill";
+import Heading from "../components/heading";
+import Sideline from "../components/sideline";
 
-function Home() {
+export default function Home() {
   return (
     <div className="h-screen">
       <Header />
@@ -23,8 +23,7 @@ function Home() {
             <img
               src="images/icons/me.jpg"
               alt="Me"
-              className="rounded-full"
-              width={200}
+              className="rounded-full w-1/6 h-1/4"
             />
           </div>
         </div>
@@ -48,9 +47,6 @@ function Home() {
         <Heading value="Professional Experience" />
         <div className="flex pt-10 pb-10">
           <Sideline show={true} side="left" />
-          {/* <div className="pl-5">
-            <img src="images/icons/daitum.png" alt="Daitum" width={100} />
-          </div> */}
           <div className="ms-5  text-white">
             <div className="grid grid-cols-2">
               <div>
@@ -135,16 +131,10 @@ function Home() {
               </li>
             </ul>
           </div>
-          {/* <div className="pl-5">
-            <img src="images/icons/happyco.png" alt="HappyCo" width={300} />
-          </div> */}
           <Sideline show={true} side="right" />
         </div>
         <div className="flex pt-10 pb-10">
           <Sideline show={true} side="left" />
-          {/* <div className="pl-5">
-            <img src="images/icons/happyco.png" alt="HappyCo" width={150} />
-          </div> */}
           <div className="ms-5  text-white">
             <div className="grid grid-cols-2">
               <div>
@@ -204,13 +194,6 @@ function Home() {
         <Heading value="Education" />
         <div className="flex pt-10 pb-10">
           <Sideline show={true} side="left" />
-          {/* <div className="pl-5">
-            <img
-              src="images/icons/adluni.png"
-              alt="University of Adelaides"
-              width={90}
-            />
-          </div> */}
           <div className="ms-5 text-white">
             <p className="text-2xl">University of Adelaide</p>
             <p>Bachelor of Computer Science (Advanced) </p>
@@ -227,5 +210,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

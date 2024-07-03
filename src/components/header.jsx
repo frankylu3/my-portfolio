@@ -1,24 +1,28 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
   const [franky, setFranky] = useState("images/icons/f-key.png");
   const [linkedin, setLinkedin] = useState("images/icons/linkedin.png");
   const [github, setGithub] = useState("images/icons/github.png");
   const [resume, setResume] = useState("images/icons/resume.png");
-  const [aboutMe, setAboutMe] = useState("images/icons/info.png");
+  const [aboutMe, setAboutMe] = useState("images/icons/happy.png");
 
+  const nav = useNavigate();
   return (
     <header className="flex flex-row justify-between m-auto container max-w-screen-lg pl-5 pt-5 pr-5">
       <img
         src={franky}
         alt="Franky Lu"
         width={50}
+        onClick={() => nav("/")}
         onMouseEnter={() => {
           setFranky("images/icons/f-key-blue.png");
         }}
         onMouseLeave={() => {
           setFranky("images/icons/f-key.png");
         }}
+        className=" hover:cursor-pointer"
       />
       <nav className="flex justify-between items-center gap-4 font-semibold">
         <a
@@ -75,20 +79,20 @@ function Header() {
             }}
           />
         </a>
-        <a href="/">
-          <img
-            src={aboutMe}
-            alt="About Me"
-            width={30}
-            onMouseEnter={() => {
-              setAboutMe("images/icons/info-blue.png");
-            }}
-            onMouseLeave={() => {
-              setAboutMe("images/icons/info.png");
-            }}
-            title="More About Me"
-          />
-        </a>
+        <img
+          src={aboutMe}
+          alt="About Me"
+          width={30}
+          className=" hover:cursor-pointer"
+          onMouseEnter={() => {
+            setAboutMe("images/icons/happy-blue.png");
+          }}
+          onMouseLeave={() => {
+            setAboutMe("images/icons/happy.png");
+          }}
+          title="More About Me"
+          onClick={() => nav("/hobbies")}
+        />
       </nav>
     </header>
   );
