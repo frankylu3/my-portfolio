@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import Gallery from "../components/gallery";
+import Footer from "../components/footer";
 
 function Hobbies() {
   const soccerPhotos = [
@@ -61,6 +62,7 @@ function Hobbies() {
         <Gallery photos={soccerPhotos} title="Soccer" layout="rows" />
         <Gallery photos={travelPhotos} title="Travel" layout="masonry" />
       </div>
+      <Footer />
     </div>
   );
 }

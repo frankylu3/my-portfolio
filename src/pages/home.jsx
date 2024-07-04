@@ -2,6 +2,7 @@ import Header from "../components/header";
 import Skill from "../components/skill";
 import Heading from "../components/heading";
 import Sideline from "../components/sideline";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -207,6 +208,7 @@ export default function Home() {
           <Sideline show={false} side="right" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
