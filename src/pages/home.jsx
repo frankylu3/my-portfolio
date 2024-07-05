@@ -1,8 +1,10 @@
+import React from "react";
 import Header from "../components/header";
 import Skill from "../components/skill";
 import Heading from "../components/heading";
 import Sideline from "../components/sideline";
 import Footer from "../components/footer";
+import Review from "../components/review";
 
 export default function Home() {
   return (
@@ -44,6 +46,65 @@ export default function Home() {
             <Skill src="images/icons/restapi.png" desc="RESTful APIs" />
             <Skill src="images/icons/vscode.png" desc="Visual Studio Code" />
           </ul>
+        </div>
+        <Heading value="Endorsements" />
+        <div className="grid grid-cols-1 gap-y-2 pt-10 pb-10">
+          <Review>
+            <div>
+              <p>
+                Franky whilst being our youngest team member, was the most
+                accomplished and most output driven engineer.
+              </p>
+              <br />
+              <p>
+                He is a great IC but also a highly collaborative team member, he
+                understands that the work required to build great products is
+                not him going around being a super hero, but moving away from
+                the spotlight to let others shine equally, really meaning, he
+                would make himself always available to bounce ideas off with
+                other team members, proactive and thorough with code reviews,
+                always happy to help solve complicated problems.
+              </p>
+              <br />
+              <p>
+                He has a brilliant career ahead of him, and whoever snaps him
+                next is counting themselves lucky.
+              </p>
+              <br />
+              <p>Karen Ferreria (Product Manager) from HappyCo</p>
+            </div>
+          </Review>
+          <Review>
+            <div>
+              <p>
+                Big shout out to Franky on the RangeWater attachments front-end
+                work. Without you, the team would have struggled to get the
+                project deployed this week. Thank you for taking on the
+                challenge!
+              </p>
+              <br />
+              <p>
+                Furthermore, on several occasions over the last few months, I
+                have asked Franky to jump on a ticket on very short notice,
+                without any information or brief, he always took care of it,
+                consistently and efficiently.
+              </p>
+              <br />
+              <p>Johan Douma (Senior Software Engineer) from HappyCo</p>
+            </div>
+          </Review>
+          <Review>
+            <div>
+              <p>
+                Thank you for being a very knowledgeable and helpful person who
+                is always willing to help! Whenever I have code-related
+                questions, thanks for always taking the time to jump on call and
+                listen intently and explain concepts thoroughly!
+              </p>
+              <br />
+              <p>Georgia Zhang (Software Engineer) from HappyCo</p>
+            </div>
+          </Review>
         </div>
         <Heading value="Professional Experience" />
         <div className="flex pt-10 pb-10">
