@@ -109,7 +109,7 @@ export default function Home() {
         <Heading value="Professional Experience" />
         <div className="flex pt-10 pb-10">
           <Sideline show={true} side="left" />
-          <div className="ms-5  text-white">
+          <div className="grid grid-cols-1 gap-y-2 ms-5 text-white">
             <div className="grid grid-cols-2">
               <div>
                 <p className="text-2xl">Daitum</p>
@@ -119,20 +119,19 @@ export default function Home() {
               </div>
             </div>
             <p>Software Engineer </p>
-            <ul className="list-disc pl-5">
-              <li>
-                Enhanced customer onboarding efficiency by developing{" "}
-                <span className="text-blue-300 font-bold">Python</span> scripts,
-                streamlining manual tasks previously conducted by the sales
-                team.
-              </li>
-            </ul>
+            <p>
+              Enhanced customer onboarding efficiency by developing{" "}
+              <span className="text-blue-300 font-bold">Python</span> scripts,
+              streamlining manual tasks previously conducted by the sales team.
+              Utilised <span className="text-blue-300 font-bold">Java</span> to
+              build API endpoints that were utilised by these scripts.
+            </p>
           </div>
           <Sideline show={false} side="right" />
         </div>
         <div className="flex pt-10 pb-10">
           <Sideline show={false} side="left" />
-          <div className="ms-5 text-white">
+          <div className="grid grid-cols-1 gap-y-2 ms-5 text-white">
             <div className="grid grid-cols-2">
               <div>
                 <p className="text-2xl">HappyCo</p>
@@ -142,62 +141,32 @@ export default function Home() {
               </div>
             </div>
             <p>Software Engineer </p>
-            <ul className="list-disc pl-5 pt-5">
-              <li>
-                Full stack development of property incident management features
-                using <span className="text-blue-300 font-bold">Go</span>,{" "}
-                <span className="text-blue-300 font-bold">
-                  Typescript React
-                </span>{" "}
-                and <span className="text-blue-300 font-bold">GraphQL</span>, to
-                handle client-server communication contributing to seamless data
-                handling and ensuring a seamless user experience.
-              </li>
-              <li>
-                Pioneered and executed autonomous integration with{" "}
-                <span className="text-blue-300 font-bold">
-                  {" "}
-                  third party API
-                </span>{" "}
-                which improved the property data management processes.
-                <ul className="list-disc pl-10">
-                  <li>
-                    Elevated cross-platform efficiency and contributed to a
-                    significant advancement in data handling capabilities.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Implemented the{" "}
-                <span className="text-blue-300 font-bold">builder pattern</span>{" "}
-                to streamline local development by creating an efficient
-                endpoint for swiftly generating demo accounts within a 30-second
-                timeframe.
-              </li>
-              <li>
-                Collaborated to enhance platform functionality, enabling users
-                to upload attachments to inspections.
-                <ul className="list-disc pl-10">
-                  <li>
-                    Implemented{" "}
-                    <span className="text-blue-300 font-bold">signed URLs</span>{" "}
-                    and established infrastructure for storing attachments in
-                    designated buckets using{" "}
-                    <span className="text-blue-300 font-bold">
-                      Google Cloud
-                    </span>{" "}
-                    and{" "}
-                    <span className="text-blue-300 font-bold">Terraform</span>.
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <p>
+              Specialised in{" "}
+              <span className="text-blue-300 font-bold">
+                full stack web development
+              </span>
+              , leveraging <span className="text-blue-300 font-bold"> Go</span>,
+              <span className="text-blue-300 font-bold"> Typescript React</span>
+              , and <span className="text-blue-300 font-bold"> GraphQL</span> to
+              create seamless property incident management features. Integrated
+              <span className="text-blue-300 font-bold"> third-party APIs</span>
+              , improving data management processes, and enhanced cross-platform
+              efficiency. Notably, I implemented the builder pattern to
+              streamline local development and utilized
+              <span className="text-blue-300 font-bold">
+                {" "}
+                Google Cloud
+              </span> and{" "}
+              <span className="text-blue-300 font-bold">Terraform</span> to
+              establish infrastructure for secure attachment storage.
+            </p>
           </div>
           <Sideline show={true} side="right" />
         </div>
         <div className="flex pt-10 pb-10">
           <Sideline show={true} side="left" />
-          <div className="ms-5  text-white">
+          <div className="grid grid-cols-1 gap-y-2 ms-5 text-white">
             <div className="grid grid-cols-2">
               <div>
                 <p className="text-2xl">HappyCo</p>
@@ -207,56 +176,30 @@ export default function Home() {
               </div>
             </div>
             <p>Junior Software Engineer</p>
-            <ul className="list-disc p-5">
-              <li>
-                Instrumental in the company's transition from{" "}
-                <span className="text-blue-300 font-bold">Twirp</span> to{" "}
-                <span className="text-blue-300 font-bold">GraphQL</span>,
-                actively participating in the migration process to help achieve
-                remarkable performance and reliability enhancements.
-                <ul className="list-disc pl-10">
-                  <li>
-                    Demonstrated adaptability and technical proficiency in
-                    navigating transitions, contributing to the company's
-                    commitment to staying at the forefront of technology.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Engaged in{" "}
-                <span className="text-blue-300 font-bold">
-                  collaborative sprint planning
-                </span>{" "}
-                and execution to provide technical guidance and support
-              </li>
-              <li>
-                Resolved customer support tickets with precision, demonstrating
-                strong{" "}
-                <span className="text-blue-300 font-bold">
-                  debugging skills
-                </span>{" "}
-                to deliver solutions that exceeded customer expectations and
-                drove a high customer satisfaction rate.
-              </li>
-              <li>
-                Addressed customer concerns, showcasing a commitment to quality
-                service and technical expertise.
-              </li>
-              <li>
-                Ensured effective communication within{" "}
-                <span className="text-blue-300 font-bold">
-                  cross-functional teams
-                </span>{" "}
-                for successful project deliveries.
-              </li>
-            </ul>
+            <p>
+              Played a key role in the company's transition from{" "}
+              <span className="text-blue-300 font-bold">Twirp</span> to{" "}
+              <span className="text-blue-300 font-bold">GraphQL</span>,
+              enhancing performance and reliability. Demonstrated adaptability
+              and technical proficiency, I contributed to{" "}
+              <span className="text-blue-300 font-bold">sprint planning</span>,
+              provided technical guidance, and resolved customer support tickets
+              with strong{" "}
+              <span className="text-blue-300 font-bold">debugging</span> skills,
+              ensuring high customer satisfaction. My effective communication
+              within{" "}
+              <span className="text-blue-300 font-bold">
+                cross functional teams
+              </span>{" "}
+              facilitated successful project deliveries.
+            </p>
           </div>
           <Sideline show={false} side="right" />
         </div>
         <Heading value="Education" />
         <div className="flex pt-10 pb-10">
           <Sideline show={true} side="left" />
-          <div className="ms-5 text-white">
+          <div className="grid grid-cols-1 gap-y-2 ms-5 text-white">
             <p className="text-2xl">University of Adelaide</p>
             <p>Bachelor of Computer Science (Advanced) </p>
             <p>GPA: 6.625 / 7</p>
